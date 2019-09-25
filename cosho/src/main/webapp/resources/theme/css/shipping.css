@@ -1,0 +1,104 @@
+.login-form{
+
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 38%;
+    max-width: 400px;
+    color: #535766;
+    display: inline-block;
+    min-width: 20px;
+    margin-right: 35%;
+    width: 100%;
+    border:1px solid #0bc6a0;
+}
+.login-container{
+  /*background: linear-gradient(to bottom right, #FEEDF6, #FCF0E2);*/
+ /* background: linear-gradient(to bottom right, #fdf6f9, #f965a2, #f3ecef);*/
+  padding-top: 60px;
+  padding-bottom: 80px;
+  min-height: 550px;
+}
+input[type=text], select {
+  width: 96%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-width: 20px;
+}
+input[type=password], select {
+  width: 96%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-width: 20px;
+}
+input[type=submit] {
+  width: 96%;
+  background-color: #FF527B;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 20px;
+}
+input[type=submit]:hover {
+  background-color: #ff3968;
+  
+}
+.login-title{
+    font-size: 32px;
+    margin-top: 15px;
+    color: #535766;
+    text-align: center;
+}
+.login-button{
+    background-color: #fff;
+    border: 1px solid #BFC0C6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    color: #696B79;
+    font-size: 13px;
+    font-weight: 500;
+    min-width: 162px;
+    max-width: 162px;
+    margin-left: 5px;
+    margin-right: 10px;
+
+    /*margin: auto;*/
+
+
+}
+.login-fb-logo{
+    background-position: -269px 0 !important;
+    width: 28px;
+    height: 29px;
+    position: absolute;
+    top: 10px;
+    
+
+
+}
+.manImg{
+    margin-left: -20px;
+}
+.login-info-text{
+    color: #94969F;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+.login-singnUp-link{
+     text-align: center;
+}
+.login-info-text{
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.title{
+	color: #444546;
+	font-weight: 400;
+    font-size: 30px;
+    margin-top: 2%;
+}
+.container h4{
+	color: #444546;
+}
+.container p{
+	color: #697071;
+	font-size: 13px;
+}
+.container li{
+	color: #697071;
+	margin-left: -2%;
+	font-size: 13px;
+	/* padding-left: 0; */
+}

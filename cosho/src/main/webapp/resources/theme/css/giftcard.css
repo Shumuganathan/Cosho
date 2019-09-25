@@ -1,0 +1,18 @@
+.container1 {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.gift{
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 1.5%;
+	max-width: 1140px;
+}
+.container h3{
+	color: #444546;
+	margin-bottom: 2%;
+}
+.container p{
+	color: #697071;
+	font-size: 13px;
+}

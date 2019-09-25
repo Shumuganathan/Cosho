@@ -1,0 +1,127 @@
+.login-form{
+
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 38%;
+    max-width: 400px;
+    color: #858e8f;
+    display: inline-block;
+    min-width: 20px;
+    margin-right: 35%;
+    width: 100%;
+    border:1px solid #ccc;
+}
+.login-container{
+  /*background: linear-gradient(to bottom right, #FEEDF6, #FCF0E2);*/
+ /* background: linear-gradient(to bottom right, #fdf6f9, #f965a2, #f3ecef);*/
+  padding-top: 60px;
+  padding-bottom: 80px;
+  min-height: 550px;
+}
+input[type=text], select {
+  width: 96%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-width: 20px;
+  color: #858e8f;
+}
+input[type=password], select {
+  width: 46%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-width: 20px;
+  float: left;
+}
+input[type=submit] {
+  width: 96%;
+  background-color: #0bc6a0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 20px;
+  font-size: 20px;
+}
+input[type=submit]:hover {
+  background-color: #0bdfb4;
+  
+}
+.card-expiry
+{
+  width: 46%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  min-width: 20px;
+  color: #858e8f;
+}
+.card-cvv{
+  width: 45%;
+  float: left;
+  font-size: 11px;
+  padding-top: 2%;
+  padding-left: 1%;
+}
+
+.login-title{
+    font-size: 32px;
+    margin-top: 15px;
+    color: #535766;
+    text-align: center;
+}
+.login-button{
+    background-color: #fff;
+    border: 1px solid #BFC0C6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    color: #696B79;
+    font-size: 13px;
+    font-weight: 500;
+    min-width: 162px;
+    max-width: 162px;
+    margin-left: 5px;
+    margin-right: 10px;
+
+    /*margin: auto;*/
+
+
+}
+.login-fb-logo{
+    background-position: -269px 0 !important;
+    width: 28px;
+    height: 29px;
+    position: absolute;
+    top: 10px;
+    
+
+
+}
+.manImg{
+    margin-left: -20px;
+}
+.login-info-text{
+    color: #94969F;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+.login-singnUp-link{
+     text-align: center;
+}
+.login-info-text{
+    text-align: center;
+}

@@ -1,0 +1,264 @@
+body{
+	/*font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5*/
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0;
+	margin: 0; 
+
+}
+/*global*/
+.container{
+	/*width: 80%;*/
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 1.5%;
+}
+.brand-tag{
+	float: left;
+	margin-top: -4%;
+	margin-bottom: 2%;
+	margin-left: -2%;
+	margin-right: 2%;
+	/*padding-right: 5px;*/
+	border-radius: 5px;
+}
+.button_1{
+	border:0;
+	height: 27px;
+}
+.container1{
+	/*width: 80%;*/
+	max-width:100% ;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+/*header*/
+header{
+	color: #000000;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #f4f4f4 3px solid;
+}
+#topheader{
+	padding-top: 0;
+	padding-right: 8%;
+	float: right;
+	font-size: 11px;
+	font-weight: 500;
+	color: #526CD0;
+}
+/*header a{
+	color: 	#000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}*/
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header li:hover{
+	color: #F529A7;
+	/*font-weight: bold;*/
+	/*padding-left: 0;
+	padding-right: 0;*/
+	transform: scale(1.2,1);
+	z-index: 1;
+    transition:all 0.5s;
+    /*border-bottom-color: 1px #ee5f73;*/
+}
+header a:hover{
+	text-decoration: none;
+	color: #F529A7;
+}
+.viewCart{
+	float:left;
+	display: inline;
+	color: #526CD0;
+	font-size: 11px;
+	/*padding: 0 20px 0 20px;*/
+}
+.company-container{
+	margin-top: 20px;
+}
+.company-name-tag{
+	float: left;
+	font: 25px/1.5 Arial, Helvetica,sans-serif;
+	color: #000000;
+	
+}
+.company-name-tag a{
+	float: left;
+	color: #000000;
+	text-decoration: none;
+}
+.categories-list{
+	padding-top: 0.5%;
+	margin-left: 10%;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+.categories-list li a{
+	color: #000000;
+}
+.categories-list li a:hover{
+	color: #F529A7;
+	/*border-bottom: #ee5f73 1px solid;*/
+}
+#homeSearch{
+	/*float: right;*/
+	/*padding-right: 35%;*/
+	/*width: 80%;*/
+	/*font-size: 20px;*/
+	margin-top: -1%;
+	margin-left: 55%;
+	/*padding-left: 500px;*/
+}
+.header-login{
+	margin-top: -2.5%;
+	width: 90%;
+}
+.Stooltip {
+  position: relative;
+  display: inline-block;
+  /*border-bottom: 1px dotted black;*/
+}
+
+.Stooltip .Stooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 16px;
+  margin-top: 5%;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.7s;
+  
+}
+
+.Stooltip:hover .Stooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.test{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.Stooltiptext a{
+	color: #fff;
+	text-decoration: none;
+}
+.Stooltiptext a:hover{
+	color: #F529A7;
+	text-decoration: none;
+	/*border-bottom: #F529A7 1px solid;*/
+}
+
+/*showcase*/
+
+#showcase{
+	
+}
+
+.slideShow{width:100% ;padding-top: 1%;min-height: 200px}
+.mySlides{
+	width:100%;
+	min-height: 200px;
+}
+.offerSlides{width:100%;}
+.display
+{
+	max-width: 25%;
+	float: left;
+	min-width: 10%;
+	padding-left: 60px;
+	/*padding-bottom: 5px;*/
+}
+
+.offerSlideShow{width:100% ;padding-left: 60px; padding-right: 60px}
+
+.display1
+{
+	max-width: 24%;
+	float: left;
+	min-width: 10%;
+	padding-left: 60px;
+	padding-bottom: 5px;
+}
+
+.displayContainer
+{
+	max-height:400px;
+}
+.myImg{
+	max-width:100%;
+	min-height: 100px;
+	min-width: 50px;
+	
+}
+
+/*Footer*/
+
+footer{
+	background-color: rgb(250, 251, 252);
+	/*width: 80%;*/
+}
+
+footer .footerDisplay1
+{
+
+	margin-top: 2%;
+	border-bottom: #EAEAEC 1px solid;
+
+}
+
+footer .footerDisplay1 hr{
+	border:1px;
+	height: 1px;
+	background-color:  #EAEAEC;
+	margin-left: 125px
+}
+
+footer .footerDisplay1 h6
+{
+	color: #282C3F;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: -30px;
+}
+footer .footerDisplay1 p{
+	color: #696B79;
+	font-size: 14px;
+
+}
+footer .desktopCopyright p{
+	color: #696B79;
+	font-size: 14px;
+/*	float: right;*/
+
+}
+footer .desktopCopyright{
+	max-width: 30%;
+	float: right;
+	margin-bottom: 35px;
+}
+footer .desktopCopyright1{
+	max-width: 30%;
+	
+	/*margin-bottom: -25px;*/
+}
